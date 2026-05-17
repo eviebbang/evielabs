@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-oatmeal: #F9F8F5;
+  --color-charcoal: #2C2C2C;
+  --color-sunset: #FF5722;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@utility subgrid-line {
+  border: 0.5px solid rgba(44, 44, 44, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-oatmeal text-charcoal font-sans antialiased selection:bg-sunset selection:text-white;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+.magazine-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .magazine-grid {
+    gap: 1.5rem;
+  }
+}
+
+/* Custom smooth scroll if needed, but we'll use motion for better control */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Infinite Scroll animation */
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 40s linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scroll-right 40s linear infinite;
+}
