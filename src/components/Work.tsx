@@ -67,4 +67,18 @@ const Work = () => {
   return (
     <section id="work" className="py-16 md:py-24 px-6 md:px-12 bg-oatmeal">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-
+        <div className="mb-16 md:mb-24">
+          <motion.span initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-sunset uppercase tracking-[0.3em] text-[10px] font-bold block mb-4">Work</motion.span>
+          <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} className="text-3xl sm:text-4xl md:text-6xl font-bold max-w-[15ch] leading-none">A small selection of recent projects.</motion.h2>
+        </div>
+        <div className="space-y-20">
+          {projects.map((project, index) => (
+            <ProjectItem key={index} title={project.title} subtitle={project.subtitle} content={project.content} image={project.image} reversed={project.reversed} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Work;
