@@ -100,7 +100,7 @@ const Work = () => {
     {
       title: "HK Web3 Festival 2026",
       subtitle: "30,000+ Attendee Industry Event",
-      image: "/src/assets/images/work_web3_festival_final.jpg",
+      image: "/images/work_web3_festival_final.jpg",
       content: {
         context: "One of Asia’s largest Web3 industry events, bringing together global blockchain companies, developers, investors, and media communities.",
         approach: "Led cross-channel communications and coordinated over 100 media outlets, communities, and KOL partners to support global event visibility and ecosystem engagement.",
@@ -111,7 +111,7 @@ const Work = () => {
       title: "AI Security Platform Growth",
       subtitle: "Go-to-Market & International Growth",
       reversed: true,
-      image: "/src/assets/images/work_ai_security.jpg",
+      image: "/images/work_ai_security.jpg",
       content: {
         context: "An AI-powered decentralized security auditing platform expanding across global and Southeast Asian markets.",
         approach: "Built the product’s brand communication and growth system across X, LinkedIn, and regional offline communities, combining content strategy, ecosystem collaboration, and local market engagement.",
@@ -121,7 +121,7 @@ const Work = () => {
     {
       title: "Strategic KA Management",
       subtitle: "Ecosystem Collaboration & Commercial Delivery",
-      image: "/src/assets/images/work_strategic_meeting.jpg",
+      image: "/images/work_strategic_meeting.jpg",
       content: {
         context: "A strategic enterprise collaboration involving technology integration, ecosystem coordination, and cross-functional product delivery.",
         approach: "Worked across product, technical, and partner teams to manage project coordination, ecosystem communication, and delivery execution throughout the collaboration process.",
@@ -132,7 +132,7 @@ const Work = () => {
       title: "Global Hackathon for Product Launch",
       subtitle: "Developer Ecosystem & Product Launch",
       reversed: true,
-      image: "/src/assets/images/work_hackathon_light.jpg",
+      image: "/images/work_hackathon_light.jpg",
       content: {
         context: "A newly launched product seeking early developer adoption and ecosystem participation across global markets.",
         approach: "Led the planning and execution of a global hackathon program, working closely with ecosystem partners, developer communities, and technical teams.",
