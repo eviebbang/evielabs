@@ -3,16 +3,16 @@ import { motion } from 'motion/react';
 
 const Moments = () => {
   const moments = [
-    { id: 1, src: "/src/assets/images/moment_01.jpg", label: "Conference Stage" },
-    { id: 2, src: "/src/assets/images/moment_02.jpg", label: "Strategy Session" },
-    { id: 3, src: "/src/assets/images/moment_03.jpg", label: "Developer Meetup" },
-    { id: 4, src: "/src/assets/images/moment_04.jpg", label: "Brand Workshop" },
-    { id: 5, src: "/src/assets/images/moment_05.jpg", label: "Global HQ" },
-    { id: 6, src: "/src/assets/images/moment_06.png", label: "Workshop Discussion" },
-    { id: 7, src: "/src/assets/images/moment_07.png", label: "Project Briefing" },
-    { id: 8, src: "/src/assets/images/moment_08.png", label: "Tech Event" },
-    { id: 9, src: "/src/assets/images/moment_09.jpg", label: "Collaboration" },
-    { id: 10, src: "/src/assets/images/moment_10.jpg", label: "Milestone Success" },
+    { id: 1, src: "/images/moment_01.jpg", label: "Conference Stage" },
+    { id: 2, src: "/images/moment_02.jpg", label: "Strategy Session" },
+    { id: 3, src: "/images/moment_03.jpg", label: "Developer Meetup" },
+    { id: 4, src: "/images/moment_04.jpg", label: "Brand Workshop" },
+    { id: 5, src: "/images/moment_05.jpg", label: "Global HQ" },
+    { id: 6, src: "/images/moment_06.png", label: "Workshop Discussion" },
+    { id: 7, src: "/images/moment_07.png", label: "Project Briefing" },
+    { id: 8, src: "/images/moment_08.png", label: "Tech Event" },
+    { id: 9, src: "/images/moment_09.jpg", label: "Collaboration" },
+    { id: 10, src: "/images/moment_10.jpg", label: "Milestone Success" },
   ];
 
   // Triple the items for seamless infinite loop
