@@ -44,7 +44,7 @@ const Hero = () => {
               className="absolute inset-0 bg-charcoal/5 rounded-[48%_52%_45%_55%_/_55%_45%_52%_48%] overflow-hidden shadow-2xl" 
             >
               <img 
-                src="/src/assets/images/evie_hero_portrait_new.jpg" 
+                src="/images/evie_hero_portrait_new.jpg" 
                 alt="Evie Xu" 
                 className="w-full h-full object-cover grayscale brightness-110 contrast-102 hover:grayscale-0 transition-all duration-1000 hover:scale-110"
                 referrerPolicy="no-referrer"
